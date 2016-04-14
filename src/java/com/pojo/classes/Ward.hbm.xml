@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Apr, 2016 5:18:52 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.pojo.classes.Ward" table="WARD" schema="GOOD" optimistic-lock="version">
+        <id name="code" type="string">
+            <column name="CODE" length="363" />
+            <generator class="assigned" />
+        </id>
+        <property name="description" type="string">
+            <column name="DESCRIPTION" length="363" />
+        </property>
+        <property name="dailycharge" type="string">
+            <column name="DAILYCHARGE" length="363" />
+        </property>
+    </class>
+</hibernate-mapping>

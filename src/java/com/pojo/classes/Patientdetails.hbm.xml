@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Apr, 2016 5:18:52 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.pojo.classes.Patientdetails" table="PATIENTDETAILS" schema="GOOD" optimistic-lock="version">
+        <id name="patientid" type="string">
+            <column name="PATIENTID" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME" />
+        </property>
+        <property name="paddress" type="string">
+            <column name="PADDRESS" />
+        </property>
+        <property name="pnumber" type="string">
+            <column name="PNUMBER" />
+        </property>
+        <property name="pgender" type="string">
+            <column name="PGENDER" />
+        </property>
+        <property name="age" type="string">
+            <column name="AGE" />
+        </property>
+        <property name="pheight" type="string">
+            <column name="PHEIGHT" />
+        </property>
+        <property name="pweight" type="string">
+            <column name="PWEIGHT" />
+        </property>
+        <property name="ptype" type="string">
+            <column name="PTYPE" />
+        </property>
+        <property name="pneed" type="string">
+            <column name="PNEED" />
+        </property>
+    </class>
+</hibernate-mapping>

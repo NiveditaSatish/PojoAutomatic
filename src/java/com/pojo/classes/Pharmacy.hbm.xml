@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14 Apr, 2016 5:18:52 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.pojo.classes.Pharmacy" table="PHARMACY" schema="GOOD" optimistic-lock="version">
+        <id name="medicinename" type="string">
+            <column name="MEDICINENAME" length="363" />
+            <generator class="assigned" />
+        </id>
+        <property name="saltbase" type="string">
+            <column name="SALTBASE" length="363" />
+        </property>
+        <property name="price" type="string">
+            <column name="PRICE" length="363" />
+        </property>
+        <property name="stock" type="string">
+            <column name="STOCK" length="363" />
+        </property>
+        <property name="reorderlevel" type="string">
+            <column name="REORDERLEVEL" length="363" />
+        </property>
+    </class>
+</hibernate-mapping>

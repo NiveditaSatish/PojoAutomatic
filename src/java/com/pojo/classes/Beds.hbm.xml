@@ -8,7 +8,7 @@
             <column name="CODE" length="363" />
             <generator class="assigned" />
         </id>
-        <property name="ward" type="string">
+        <property name="ward" type="string" >
             <column name="WARD" length="363" />
         </property>
         <property name="status" type="string">
